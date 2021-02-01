@@ -24,11 +24,13 @@
   .container.card {
     width: 90%;
     background-color: white;
-    border-radius: ;
-    border-style: inset;
-    border-style: outset;
-    box-shadow: inset ;
-  }
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px;
+    
+}
+  
   
   .is-not-expand ul {
     display: none;
@@ -43,3 +45,33 @@
     margin: auto;
   }
   
+  li {
+      list-style-image: url("../Image/bullet.png")
+  }
+ 
+
+  .column ul{
+      display:none
+  }
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+form {
+text-align: center;
+}
+.button-primary a{
+    color: white;
+    text-decoration: none;
+}
